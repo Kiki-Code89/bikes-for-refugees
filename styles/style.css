@@ -15,6 +15,11 @@ button {
 	font-family: "Source Sans Pro","Helvetica Neue",Arial,sans-serif;
 }
 
+.buttonVolunteer:hover{
+	color: red;
+
+}
+
 /*  Navigation */
 .navbar-brand > img {
 	max-height: 40px;
@@ -67,6 +72,29 @@ button {
 .jumbotron {
 	border-radius: 0;
 }
+
+@media screen and (min-width:320px) {
+.jumbotron h1 {
+	font-size:medium;
+	margin: 30px;
+}
+}
+
+
+.flex-container {
+	display :flex;
+	margin-bottom:10px;
+	padding:20px;
+	justify-content: space-between;
+}
+
+ .flex-container div {
+	 border: 2px solid rgb(114, 109, 110); 
+	 padding: 20px; width: auto;
+	 background-color: gray;
+ }
+
+	
 
 /* Headings */
 .heading-underline {
@@ -135,7 +163,7 @@ button {
 
 @media screen and (min-width: 992px) {
 
-	.navbar-brand > img {
-	   max-height: 80px;
-	}
+.navbar-brand > img {
+	max-height:80px;
+}
 }
